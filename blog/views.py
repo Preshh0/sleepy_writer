@@ -1,15 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.template import loader
+from django.views.generic import TemplateView
 
 # Create your views here.
+class HomePageView(TemplateView):
+    template_name = 'index.html'
 
-def blogPost(request):
-    context = {
-        'blog_title': "This is a title!",
-        'blog_post': "This is a post!"
-    }
-    return render(request, 'blog/index.html', request)
-
-# def trial(request, post_id):
-#     return HttpResponse('This is post' %post_id)
+class AboutPageView(TemplateView):
+    template_name = 'about.html'
