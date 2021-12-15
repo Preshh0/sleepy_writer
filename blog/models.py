@@ -5,12 +5,9 @@ from django.utils import timezone
 
 class Post(models.Model):
     post_title = models.CharField(max_length=30)
-    post = models.CharField(max_length=10000)
+    post = models.TextField()
     author = models.CharField(max_length=20)
     created_date = models.DateTimeField(default=timezone.now)
 
-    def __str__(self):
+    def __str__(self): #adding str() method to models is best practice and also makes your code more readable.
         return self.post_title
-class Check(models.Model):
-    name = models.CharField(max_length=10)
-    age = models.CharField(max_length=3)
