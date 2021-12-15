@@ -1,5 +1,5 @@
 from typing import List
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 from .models import Post
 
 # Create your views here.
@@ -7,4 +7,7 @@ from .models import Post
 class Blog(ListView):
     model = Post
     template_name = 'blog.html'
-    context_object_name = 'all_posts_list'
+
+class BlogDetailView(DetailView):
+    model = Post
+    template_name = 'post_detail.html'
