@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from django.utils import timezone
 
 # Create your models here.
@@ -14,3 +15,6 @@ class Post(models.Model):
 
     def __str__(self): #adding str() method to models is best practice and also makes your code more readable.
         return self.post_title
+    
+    def get_absolute_url(self):
+        return reverse('post_detail', args=[str(self.id)])
