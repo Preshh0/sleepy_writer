@@ -44,8 +44,9 @@ INSTALLED_APPS = [
     #local
     'accounts',
     'pages',
+    'articles',
 ]
-
+TIME_ZONE = 'West African Time'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
