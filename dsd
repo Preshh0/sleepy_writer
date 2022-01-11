@@ -1,0 +1,161 @@
+[33mcommit 475cff30290559cb752b233b1a73671c80dae6ff[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Sat Jan 8 23:34:06 2022 +0100
+
+    Added the functionality to disable non-logged in users from creating an article and also making the create an article link redirects to the login page.
+
+[33mcommit 226af3f543c595ba8cca64afbc573bb6720c6889[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Fri Jan 7 22:08:26 2022 +0100
+
+    Created the Articles feature(app), added delete, update, create new and then edit article feature. Had to skip the email sending functionality because SendGrid was misbehaving.
+
+[33mcommit ed1539148f1b58a925caf47c9b6bf1d9d5cd2a79[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Thu Jan 6 21:29:50 2022 +0100
+
+    Made use of bootstrap to better the look of the site. Added the send email and reset password functionalities.Learnt alot on this one, super fun stuff!
+
+[33mcommit 1714610d850fe88f74a8d325b7ba06cea9917153[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Thu Jan 6 00:09:23 2022 +0100
+
+    Wrote tests for the home and signup features.
+
+[33mcommit 7cc6087f1481a07bcae36ac92ab6ae5b05018b8c[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Jan 5 23:51:01 2022 +0100
+
+    Added a pages app that will contain all the static pages
+
+[33mcommit d91aecc224de146f93a3dba3e8c9e7ea99b9b1ce[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Jan 5 23:15:11 2022 +0100
+
+    Further worked on the custom user model and authentication feature.
+
+[33mcommit c405cef9928a28269919532b1146a1fb89b6f728[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Tue Jan 4 23:25:51 2022 +0100
+
+    It works like it should now. Tiny th
+
+[33mcommit f77264637debfa6acdc932dec136538b20f792b3[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Tue Jan 4 21:09:09 2022 +0100
+
+    Had to delete the project and app file.
+
+[33mcommit b341e13b122ac30c8b397c23d05befc5fbdfc0a4[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Mon Jan 3 23:32:43 2022 +0100
+
+    It's not working, and deleting all these files don't seem to help. I think i'd just create another folder for thisd task.
+
+[33mcommit dba9749b0da2a84f7172f77590c2c6e2c077a5fc[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Sun Jan 2 23:53:13 2022 +0100
+
+    Flushed the db to see if i'd fix the 'Manager' error, ended up adding a lot more.
+
+[33mcommit f84b5565588e7cecd55236e740a1ec32e7d366e9[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Mon Dec 27 23:46:40 2021 +0100
+
+    Made tiny edits to the authentication, but i have an error now sooo
+
+[33mcommit c5931c1f4e8e05d5ed8612df697105905d4af53e[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Sat Dec 25 23:18:41 2021 +0100
+
+    Made the user custom model.
+
+[33mcommit 1f197e36cfd7bbb24dcac635378f1c60ad8eb93d[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Thu Dec 23 05:24:14 2021 +0100
+
+    Editted the procfile.
+
+[33mcommit 067bd5c301d8de34b5709316e82d09a764744c09[m[33m ([m[1;31mheroku/main[m[33m)[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Thu Dec 23 05:18:44 2021 +0100
+
+    Added Requirements.txt file
+
+[33mcommit e583516310bf371e3b49233448f4392af24ca88d[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Thu Dec 23 04:56:22 2021 +0100
+
+    Added whitenoise, and the procfile so i can deploy to heroku
+
+[33mcommit d39e6e551c511f8588b1929f55e5845af1f529b8[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Tue Dec 21 02:48:29 2021 +0100
+
+    There was nothing wrong with my sign in feature, i just wasn't inputting the correct password format for my username.
+
+[33mcommit 75c0e98605cbe3847b931066fccfee9aa261c287[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Tue Dec 21 01:56:16 2021 +0100
+
+    Added delete post, login and logout functionality and then signup feature. The signup feature has a bug tho
+
+[33mcommit 0bdf7395a670cadfbb897416e3d863f763835b11[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Mon Dec 20 23:47:29 2021 +0100
+
+    Added the delete option.
+
+[33mcommit 133c2134360c9d48d8946c79c09772056881fa61[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Mon Dec 20 23:12:42 2021 +0100
+
+    Added forms, with the ability to edit and add new posts. I'd finish up the delete posts option later.
+
+[33mcommit 0e99d458c0557dc4c132de479db3c37339668762[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Dec 15 18:34:27 2021 +0100
+
+    Added the template for viewing the post details. Wrote tests for it.
+
+[33mcommit 6d615004add6baa5de54fb918e9067ba10a910eb[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Dec 15 14:40:08 2021 +0100
+
+    Added more tests
+
+[33mcommit 323297aa9edc9ecefb0b108b06d193d388e12dcb[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Dec 15 14:22:18 2021 +0100
+
+    Wrote tests for the Post model.
+
+[33mcommit a4a8f4874520ddfab3fd5391c67c29b48db7b921[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Dec 15 14:06:41 2021 +0100
+
+    Progress! The posts display on the blog.html page. And the blog urls was giving issues, i've fixed that too.
+
+[33mcommit 4c1d5e5ae2f18d8fdb9067b7140d558df735ae37[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Dec 15 04:13:42 2021 +0100
+
+    Fixed the error!
+
+[33mcommit 8bd079900911812319bc7caa3abfa57c4a751d8d[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Wed Dec 15 03:10:40 2021 +0100
+
+    Created another app 'blog' and created models on it, but it's giving me errors when i try to create posts on the admin page. I'd fix it this night.
+
+[33mcommit a7cd4bb3b6d01f7bd51d519228dbeb615f68d840[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Mon Dec 13 15:30:54 2021 +0100
+
+    Editted the urls, templates and views and also wrote tests. Fs, for the first time anhe first time and they workedgit add .git add .
+
+[33mcommit 6f88a5dbb6644246d6d97bf24020a6ef95cac188[m
+Author: Preshh0 <uniquep201@gmail.com>
+Date:   Sun Dec 12 19:37:22 2021 +0100
+
+    Just added the initial template.
