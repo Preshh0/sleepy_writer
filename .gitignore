@@ -1,3 +1,7 @@
 /myvenv/
 
-/dsd/
+dsd/
+
+.env
+__pycache__/
+db.sqlite3
